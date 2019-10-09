@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Screen HTML CSS Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="d-flex vh-100">
+        <div class="d-flex w-100 justify-content-center align-self-center">
+            <div class="col-md-4">
+                <div class="login-part px-5 py-5 border border-primary rounded">
+                    <div class="mb-5">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#login">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#registration">Registration</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content">
+                        <div id="login" class="container tab-pane fade active">
+                            <h1 class="display-4 text-center mb-5">Login Part</h1>
+                            <div class="form-group">
+                                <label for="username">username</label>
+                                <input type="text" autofocus="autofocus" class="form-control form-control-lg" placeholder="add your username">
+                            </div>
+                            <div class="form-group">s
+                                <label for="password">password</label>
+                                <input type="text" class="form-control form-control-lg" placeholder="add your password">
+                            </div>
+                            <button class="btn btn-success btn-lg w-100 mt-4 mb-5">Login</button>
+                        </div>
+                        <div id="registration" class="container fade tab-pane">
+                            <h1 class="display-4 text-center mb-5">Registration Part</h1>
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" class="form-control form-control-lg" placeholder="add your username">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control form-control-lg" placeholder="add your username">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="text" class="form-control form-control-lg" placeholder="add your password">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Repeat Password</label>
+                                <input type="text" class="form-control form-control-lg" placeholder="add your password">
+                            </div>
+                            <button class="btn btn-primary btn-lg w-100 mt-4 mb-5">register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+body {
+    background-image: linear-gradient(120deg,#3498db,#8e44ad);
+    height: 100vh;
+}
+
+.login-part{
+    background-color: #FFF;
+}
